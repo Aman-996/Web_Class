@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小u课堂注册框</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/reg.css">
+</head>
+<body>
+    <div class="box">
+        <h1>
+            <a href="#">
+                <img src="./images/logo.png" alt="">
+            </a>
+        </h1>
+        <div class="cont">
+            <span class=" line line1"></span>
+            <span class="cont1">使用手机号登录</span>
+            <span class="line line2"></span>
+        </div>
+        <form action="#">
+            <div class="inp1">
+                <input type="text" name="XXX" placeholder="请输入你的手机号" value="185103312">
+                <p>手机号格式错误，请重新输入！</p>
+            </div>
+            <div class="inp2">
+                <input type="password" name="YYY" placeholder="请输入密码" value="123456">
+                <p>密码号格式错误，请重新输入！</p>
+            </div>
+            <div class="inp2">
+                <input type="password" name="YYY" placeholder="请再次输入密码" value="123456">
+                <p>密码两次输入不同请验证~</p>
+            </div>
+            <div>
+                <input type="text" name="ZZZ" placeholder="请输入验证码">
+                <img src="./images/yzm_03.png" alt="验证码">
+                <p>验证码输入不正确</p>
+            </div>
+            <div class="inp3">
+                <input type="submit" value="注册">
+            </div>
+            <div>
+                <input type="checkbox" name="agree">
+                <span>我同意《用户使用协议》</span>
+                <span class="have">已有账号</span><a href="../login/Login.html">去登录</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

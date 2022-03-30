@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+h1 {
+    margin-bottom: 31px;
+}
+
+ input {
+    margin-top: 0px !important;
+}
+form div:nth-child(1) {
+    margin-top: 25px;
+}
+
+form div:nth-child(1) input{
+    border-color: red;
+}
+
+form div:nth-child(4) input {
+    width: 148px;
+    text-indent: 23px;
+    margin-left: 92px;
+    margin-right: 27px;
+}
+
+form div p {
+    margin-left: 126px;
+    font: 11px/30px "微软雅黑";
+    color: #cbcbcb;
+}
+
+form div:last-child input{
+    margin-right: 9px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+form div:last-child span {
+    margin-right: 53px;
+    font: 11px/20px "微软雅黑";
+    color: #cccccc;
+}
+
+form div:last-child .have {
+    margin-right: 8px;
+    color: #585858;
+}
+
+form div:last-child a {
+    font: 11px/20px "微软雅黑" ;
+    color: #7ac9b6;
+}
